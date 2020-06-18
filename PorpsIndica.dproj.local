@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/06/15 19:19:56.000.547,=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/06/16 07:25:27.000.751,=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/06/16 08:40:33.000.746,=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/06/16 08:40:43.000.370,C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Gerso\aa.pas</Transaction>
+    <Transaction>2020/06/16 08:40:43.000.371,C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Gerso\aa.fmx</Transaction>
+    <Transaction>2020/06/16 08:40:47.000.438,C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Gerso\Gerso.dproj</Transaction>
+    <Transaction>2020/06/16 10:50:11.000.798,=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Gerso\PrincipalForm.pas</Transaction>
+    <Transaction>2020/06/16 10:50:17.000.248,C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Gerso\aa.pas=</Transaction>
+    <Transaction>2020/06/16 11:00:31.000.028,=C:\Users\Paulo\Documents\Embarcadero\Studio\Projects\Gerso\ConexaoData.pas</Transaction>
+    <Transaction>2020/06/18 11:45:24.904,C:\Users\Paulo\Desktop\Delphi-Android-Map-s\PorpsIndica.dproj=C:\Users\Paulo\Desktop\Delphi-Android-Map-s\Gerso.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android64="D5028C2R6A267625" Android="D5028C2R6A267625"/>
+	</ActiveMobileDevice>
+</BorlandProject>

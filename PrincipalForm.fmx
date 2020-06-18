@@ -1,0 +1,201 @@
+object PrincipalFrm: TPrincipalFrm
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 512
+  ClientWidth = 317
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object MapView1: TMapView
+    Align = Client
+    Size.Width = 317.000000000000000000
+    Size.Height = 343.000000000000000000
+    Size.PlatformDefault = False
+    Zoom = 2.000000000000000000
+    OnMarkerClick = MapView1MarkerClick
+    OnMarkerDoubleClick = MapView1MarkerDoubleClick
+  end
+  object Panel1: TPanel
+    Align = Top
+    Size.Width = 317.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Label1: TLabel
+      Align = Client
+      Size.Width = 273.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Ativar/Desativar'
+      TabOrder = 0
+    end
+    object Switch1: TSwitch
+      Align = Right
+      IsChecked = False
+      Position.X = 273.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 44.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      OnClick = Switch1Click
+    end
+  end
+  object Panel2: TPanel
+    Align = Top
+    Position.Y = 41.000000000000000000
+    Size.Width = 317.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    OnClick = Panel2Click
+    object lblLatitude: TLabel
+      Align = Client
+      Size.Width = 317.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Latitude/Longitude = '
+      TabOrder = 0
+    end
+  end
+  object Layout1: TLayout
+    Align = Top
+    Position.Y = 81.000000000000000000
+    Size.Width = 317.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    object edtEndereco: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 0
+      Text = 'Mcdonalds sao jose dos campos'
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 8.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 15.000000000000000000
+      Size.Width = 188.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Para onde vamos?'
+    end
+    object Button1: TButton
+      Align = Right
+      Position.X = 208.000000000000000000
+      Size.Width = 109.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Buscar'
+      OnClick = Button1Click
+    end
+  end
+  object pnlCombo: TPanel
+    Align = Top
+    Position.Y = 131.000000000000000000
+    Size.Width = 317.000000000000000000
+    Size.Height = 38.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object cmbLista: TComboBox
+      Align = Top
+      Size.Width = 317.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      OnChange = cmbListaChange
+    end
+    object imgPosAtual: TImage
+      MultiResBitmap.Height = 32
+      MultiResBitmap.Width = 32
+      MultiResBitmap = <
+        item
+          Width = 32
+          Height = 32
+          PNG = {
+            89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+            F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            04F3494441545847C5977B4C5B551CC77FB74F18658CF2181446110663505E82
+            14E7884C3294A9E08860161FE0D419C3649933CB0C223344DD8CEF398DC4B019
+            C530993AC5C196601D30CCC65BDE0203CA6314A49482504A5BAEE7DE1E2285DE
+            D2363E3EFF9C7B7EBF7373BEF7777EE7F76BD960031919DFB0171CF8717AED7C
+            966E71260B99D209827848200C88F40A48D647853E3A2E97572F1B57FFC34424
+            BD1AED24105DE570B87A375134191873900CB9E7281918FB0CE9E61B4B22BBC1
+            D1D95BB633F18414BF6215041E2D129A7022ABABF654915F583A2F34B100B678
+            850387FBF7AB063D09EA896EE8AA2E84A1B65243F0AE232FF6FEFAE1A7D86D91
+            0D0544A7BCFB74EB9563C571FBCF4190341B960D00CB6843925C156982003687
+            052C74A0034DA570E3E2E31096F8FAE17659FE59BC82118B3970EF9397636F7E
+            9775293EFD3C3BE8EE6CD06996815CA636268D0B56412E93481880A77F380884
+            61D058FE42CAAEC7CA64239D65C37889592C0A504FB49FF310EF0EBE73DF9BB0
+            843637B7F15A0C3A12DCFD2430373548C85BCE07C51FFFF64B79F5178C89C9C2
+            E33AC2EF3F9D30FB4757B264CF6BE88C29CBC69BAFA0D7014812F3607E46BE7B
+            AA5A9684CD66618C807E5EF9145FE07E9F24E9240AADE9074C8FD543E7B50268
+            FCE1399853FE0E0E022F70DCEC83BDD471003838BBC378EF65508E360C2E69A6
+            7FC1AE753046605AD12276F1D8096C5AA2E9D70F341581FCB7AF40A755D32335
+            3785A413D2C5330C09EC1361A359180520381CBEB3D97B72BBA71C3F19593B5F
+            81CB77A1068B79C62800DD2C2D0A9DD9A317853C8C9F8CAC9DAFA05D98A2F4A3
+            8C60865180BB38A15FAD684709850E14A9594D40CC2110473E417F2135527353
+            083A7167146DE02A8A9163A35918056C9364CA6695FD4BCAE13A7416A6CB843E
+            71109BFA39A41E9FA0476ABE1A369705AADB4DA052B49377441CA8C666B358AC
+            841EFE095FA30507F63E5F43DF6F93EAC7048A1697C70259710A68E6277F548D
+            35A7618F592C252148F6BE95AF1CAB57B55715A270535A2DEAA5E1F159A827BC
+            078AFEAA3FA393DF7E059B19B198A143CDC52AE923C54D4D154732B97C21676B
+            603CDD0798E03AB0A1EF66312AC339FA98D44F32EB4A33EBB08B118B022846BB
+            2F0D48D33EEB6928CFC9148AEE0257EF1DA821AD17C1E1B16172E03AD496ECA7
+            1AD8B3CD3FE55EC02E8B6C1C534C9034E7E470C7858207733B80EFB41589406D
+            1143106C54FD3450F15138B8F9C69F1D6A2B398C5D1B6231075613E5F77121DF
+            5178A3A5F2186ABDD888E1F0003A6B4EC1A2667A607BFCD13C6CB60AAB059495
+            1186908497F3065B4B4039D28244184F8F403577413D093DD7DF811DF1B96F54
+            15C5AA698795582D80A2FEFB433217EF888AAE9AD374ADA7E070A9DE508C04F1
+            7A7D25D212A3D57A6C1240B13DEAE0072831616E7A148960836EC900FD8D45E0
+            1B965174E5CC3E2D5E6635360B806D8ED70882736BBCB7125D3BAA353780463D
+            B2E819947611AFF8F7F10A483C230A7E80CC7E9F24257BF2C94D2EE25AECB219
+            DB2380D8EC115941D57ACDAC1E266E55A1861355895D36639700C11671AB5EB7
+            B030851AD5BC6A10FDF090D46097CDD825A0F9EA4BE31C96E3C8785F252ACD3A
+            B593AB573776FD7738BBFAFFECBE2D8E14B8F87560935DD815011A16776A76B2
+            13082E771C5BECC26E012CDE26E592761EFD1130CC62935DD82DC0D955ACA046
+            815BE0FF13014781F710353A38FBF4D006BB00F80BC23CC61C4940C33A000000
+            0049454E44AE426082}
+          FileName = 'C:\Users\Paulo\Downloads\loc1.png'
+        end>
+      Position.X = 264.000000000000000000
+      Position.Y = 320.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+  end
+  object LocationSensor1: TLocationSensor
+    OnLocationChanged = LocationSensor1LocationChanged
+    Left = 8
+    Top = 40
+  end
+  object RESTClient1: TRESTClient
+    Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
+    AcceptCharset = 'utf-8, *;q=0.8'
+    BaseURL = 'https://nominatim.openstreetmap.org'
+    Params = <>
+    RaiseExceptionOn500 = False
+    Left = 120
+  end
+  object RESTRequest1: TRESTRequest
+    Client = RESTClient1
+    Params = <>
+    Resource = 
+      'search?q=mcdonalds+sao+jose+dos+campos&format=json&polygon_geojs' +
+      'on=1&addressdetails=1'
+    Response = RESTResponse1
+    SynchronizedEvents = False
+    Left = 160
+    Top = 8
+  end
+  object RESTResponse1: TRESTResponse
+    ContentType = 'application/json'
+    Left = 72
+    Top = 8
+  end
+end
